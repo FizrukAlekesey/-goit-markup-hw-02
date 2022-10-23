@@ -1,0 +1,101 @@
+
+
+/*цвет основного текста #212121 */
+/*цвет вторичного текста #757575 */
+/*акцент #2196F3 */
+/*цвет основного фона #FFFFFF */
+/* вторичный цвет фона F5F4FA */
+
+:root {
+    --primary-text-color:#212121;
+    --tittle-text-color:#212121;
+    --accent-color:#2196F3;
+    --poragraf-color:#757575;
+}
+
+
+body {
+   background-color:#FFFFFF;
+   color: #212121;
+ }
+ .logo{
+    color: 000000;
+ }
+ .list {
+    list-style:none;
+ }
+/*site-nav*/
+
+    
+.site-nav .link :hover,
+.site-nav .link :focus { 
+    color: #2196F3} 
+
+.site-nav .link {
+    color: #212121;
+}
+.site-nav .link.current {
+    color:#2196F3
+}
+/*fondament*/
+.fondament {
+    color: #000000;
+}
+
+/*section*/
+.section-title {
+    color: #212121 ;
+}
+
+
+/*contact*/
+.contact 
+{
+    color: #757575 ;
+}
+.contact:hover,
+.contact:focus
+{
+    color: #2196F3
+    ;
+}
+/*Featur*/
+.feature-list, .title {
+    color: #000000;
+}
+.feature-list, .link{
+    color:#2196F3 ;
+}
+
+/*tima*/
+.tiam-list, .title {
+    color:#212121
+}
+
+/*batton*/
+.button {
+    color:#FFFFFF;
+    background-color: #2196F3;
+    width: 216px;
+    height: 51.25px;
+    left: 692px;
+    top: 423.75px;
+}
+
+.button, .primary {
+    background-color: #2196F3;
+    color:#2196F3;
+
+}
+.button, .secondori {
+    color: #212121;
+    background-color:#2196F3;
+    width: 125px;
+    height: 38px;
+    left: 593px;
+    top: 174px
+}
+/*paragraf*/
+p {
+    color: #757575;
+}
