@@ -17,34 +17,68 @@
 body {
    background-color:#FFFFFF;
    color: #212121;
+
+   font-family: Roboto,sans-serif ;
+   letter-spacing: 0.03em;
+   font-size: 14px;
+   line-height:1.7;
+   text-decoration:none;
+
  }
+ /*logo*/
  .logo{
     color: 000000;
+    font-family:Raleway,sans-serif;
+    font-size: 26px;
+    line-height: 1.2;
+    text-decoration:none;
  }
  .list {
     list-style:none;
+
  }
 /*site-nav*/
-
-    
-.site-nav .link :hover,
-.site-nav .link :focus { 
-    color: #2196F3} 
-
 .site-nav .link {
     color: #212121;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+
 }
+    
+.site-nav .link:hover,
+.site-nav .link:focus { 
+    color: #2196F3} 
+
+
 .site-nav .link.current {
     color:#2196F3
 }
 /*fondament*/
 .fondament {
-    color: #000000;
+    background-color: #757575;
+   
+    
+   font-weight: 900;
+   font-size: 44px;
+   line-height: 1.36;
+   text-align: center;
+
+
 }
+.fondament-title{color:#FFFFFF ;}
 
 /*section*/
 .section-title {
     color: #212121 ;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration:none;
 }
 
 
@@ -60,42 +94,102 @@ body {
     ;
 }
 /*Featur*/
-.feature-list, .title {
+.feature .list .title {
     color: #000000;
+
+ 
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    
 }
-.feature-list, .link{
+
+.feature .list .link{
     color:#2196F3 ;
 }
 
 /*tima*/
-.tiam-list, .title {
+.tiam {
+    background-color: #F5F4FA;
+}
+.tima .list .title{
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+}
+.tiam .list, .title {
     color:#212121
+}
+.tiam {
+    
 }
 
 /*batton*/
+
+
 .button {
     color:#FFFFFF;
     background-color: #2196F3;
-    width: 216px;
-    height: 51.25px;
-    left: 692px;
-    top: 423.75px;
+    
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+    text-decoration:none;
 }
 
-.button, .primary {
-    background-color: #2196F3;
+.button {
+  border: 0;
+}
+
+.button .primary {
+    background-color: #188CE8;
     color:#2196F3;
 
 }
-.button, .secondori {
+.button .secondori {
     color: #212121;
-    background-color:#2196F3;
+    background-color:#F5F4FA;
     width: 125px;
     height: 38px;
     left: 593px;
     top: 174px
 }
+
+
+
 /*paragraf*/
 p {
     color: #757575;
+    text-decoration:none;
+}
+/*ocupation*/
+.ocupation, .list{}
+
+/*footer*/
+.footer, .link{
+    }
+
+    /*CSS*/
+
+    /*cnopka*/
+.cnopka .button {
+    background-color: #F5F4FA;
+    color: #000000;
+    width: 125px;
+    height: 38px;
+    left: 593px;
+    top: 174px;}
+
+.cnopka .list, .link :hover,
+.cnopka .list, .link :focus { 
+    color: #2196F3} 
+
+/*Portfolio*/
+.Portfolio .list .title {
+    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    text-decoration:none;
 }
